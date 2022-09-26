@@ -19,6 +19,15 @@ body, button, input {
   font-family: "DM Sans", sans-serif;
 }
 
+button {
+  background-color: #7879F1;
+  font-weight: bold;
+  color: white;
+  border-radius: 0 .4rem .4rem 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
 .hide {
   display: none;
 }
@@ -33,17 +42,9 @@ main {
   text-align: center;
 }
 
-button {
-  background-color: #7879F1;
-  font-weight: bold;
-  color: white;
-  border-radius: 0 .4rem .4rem 0;
-  cursor: pointer;
-}
 
 button:hover {
-  background-color: #7879F1;
-
+  background-color: #6363CE;
 }
 
 /* screen1 */
